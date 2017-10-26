@@ -1,0 +1,6 @@
+framework module IQIYIVideoPod {
+  umbrella header "IQIYIVideoPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

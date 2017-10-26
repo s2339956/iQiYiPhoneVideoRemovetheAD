@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2536559C1FA1953600EA11B4 /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2536559B1FA1953600EA11B4 /* MethodTraceConfig.plist */; };
+		2536559F1FA1953600EA11B4 /* put ipa or app here in Resources */ = {isa = PBXBuildFile; fileRef = 2536559E1FA1953600EA11B4 /* put ipa or app here */; };
+		253655A71FA1953600EA11B4 /* libiQiYiPhoneVideoRemovetheADDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 253655A61FA1953600EA11B4 /* libiQiYiPhoneVideoRemovetheADDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		253655AC1FA1953600EA11B4 /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253655AB1FA1953600EA11B4 /* Cycript.framework */; };
+		253655AE1FA1953600EA11B4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253655AD1FA1953600EA11B4 /* JavaScriptCore.framework */; };
+		253655B01FA1953600EA11B4 /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253655AF1FA1953600EA11B4 /* RevealServer.framework */; };
+		253655B21FA1953600EA11B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253655B11FA1953600EA11B4 /* Foundation.framework */; };
+		253655B41FA1953600EA11B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253655B31FA1953600EA11B4 /* UIKit.framework */; };
+		253655B81FA1953600EA11B4 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 253655B71FA1953600EA11B4 /* ANYMethodLog.h */; };
+		253655BA1FA1953600EA11B4 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 253655B91FA1953600EA11B4 /* ANYMethodLog.m */; };
+		253655BC1FA1953600EA11B4 /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 253655BB1FA1953600EA11B4 /* MethodTrace.h */; };
+		253655BE1FA1953600EA11B4 /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 253655BD1FA1953600EA11B4 /* MethodTrace.m */; };
+		253655C31FA1953600EA11B4 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 253655C21FA1953600EA11B4 /* CaptainHook.h */; };
+		253655C61FA1953600EA11B4 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 253655C51FA1953600EA11B4 /* AntiAntiDebug.m */; };
+		253655C91FA1953600EA11B4 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 253655C81FA1953600EA11B4 /* fishhook.c */; };
+		253655CB1FA1953600EA11B4 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 253655CA1FA1953600EA11B4 /* fishhook.h */; };
+		253655CE1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 253655CD1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.mm */; };
+		253655D01FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 253655CF1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.h */; };
+		253655D21FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 253655D11FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.m */; };
+		478875F2F0862859F402217D /* Pods_iQiYiPhoneVideoRemovetheADDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6675DE1BDC636F142245F6B /* Pods_iQiYiPhoneVideoRemovetheADDylib.framework */; };
+		92781AAD4FD6371EE58658D7 /* Pods_iQiYiPhoneVideoRemovetheAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D92A4F51A6F6C8F736B032 /* Pods_iQiYiPhoneVideoRemovetheAD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		253655A81FA1953600EA11B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2536558D1FA1953600EA11B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 253655A51FA1953600EA11B4;
+			remoteInfo = iQiYiPhoneVideoRemovetheADDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		253655951FA1953600EA11B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				253655A71FA1953600EA11B4 /* libiQiYiPhoneVideoRemovetheADDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		253655981FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQiYiPhoneVideoRemovetheAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2536559B1FA1953600EA11B4 /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MethodTraceConfig.plist; sourceTree = "<group>"; };
+		2536559E1FA1953600EA11B4 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		253655A01FA1953600EA11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253655A61FA1953600EA11B4 /* libiQiYiPhoneVideoRemovetheADDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libiQiYiPhoneVideoRemovetheADDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		253655AB1FA1953600EA11B4 /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cycript.framework; path = Library/Frameworks/Cycript.framework; sourceTree = DEVELOPER_DIR; };
+		253655AD1FA1953600EA11B4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		253655AF1FA1953600EA11B4 /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = Library/Frameworks/RevealServer.framework; sourceTree = DEVELOPER_DIR; };
+		253655B11FA1953600EA11B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		253655B31FA1953600EA11B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		253655B71FA1953600EA11B4 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		253655B91FA1953600EA11B4 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		253655BB1FA1953600EA11B4 /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		253655BD1FA1953600EA11B4 /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		253655C01FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iQiYiPhoneVideoRemovetheADDylib-Prefix.pch"; sourceTree = "<group>"; };
+		253655C21FA1953600EA11B4 /* CaptainHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaptainHook.h; path = CaptainHook/CaptainHook.h; sourceTree = "<group>"; };
+		253655C51FA1953600EA11B4 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		253655C81FA1953600EA11B4 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		253655CA1FA1953600EA11B4 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		253655CC1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iQiYiPhoneVideoRemovetheADDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		253655CD1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iQiYiPhoneVideoRemovetheADDylib.mm; sourceTree = "<group>"; };
+		253655CF1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iQiYiPhoneVideoRemovetheADDylib.h; sourceTree = "<group>"; };
+		253655D11FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iQiYiPhoneVideoRemovetheADDylib.m; sourceTree = "<group>"; };
+		66D92A4F51A6F6C8F736B032 /* Pods_iQiYiPhoneVideoRemovetheAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQiYiPhoneVideoRemovetheAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8F22C454B314D0462A8C92 /* Pods-iQiYiPhoneVideoRemovetheADDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQiYiPhoneVideoRemovetheADDylib.release.xcconfig"; path = "Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheADDylib/Pods-iQiYiPhoneVideoRemovetheADDylib.release.xcconfig"; sourceTree = "<group>"; };
+		A6675DE1BDC636F142245F6B /* Pods_iQiYiPhoneVideoRemovetheADDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQiYiPhoneVideoRemovetheADDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FBCE3AE4AC5F4FDC8AB39 /* Pods-iQiYiPhoneVideoRemovetheAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQiYiPhoneVideoRemovetheAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheAD/Pods-iQiYiPhoneVideoRemovetheAD.release.xcconfig"; sourceTree = "<group>"; };
+		E40812D527E298C0943CE214 /* Pods-iQiYiPhoneVideoRemovetheADDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQiYiPhoneVideoRemovetheADDylib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheADDylib/Pods-iQiYiPhoneVideoRemovetheADDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		FC51F2278527395921747422 /* Pods-iQiYiPhoneVideoRemovetheAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQiYiPhoneVideoRemovetheAD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheAD/Pods-iQiYiPhoneVideoRemovetheAD.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253655921FA1953600EA11B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92781AAD4FD6371EE58658D7 /* Pods_iQiYiPhoneVideoRemovetheAD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253655A31FA1953600EA11B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253655AE1FA1953600EA11B4 /* JavaScriptCore.framework in Frameworks */,
+				253655B01FA1953600EA11B4 /* RevealServer.framework in Frameworks */,
+				253655AC1FA1953600EA11B4 /* Cycript.framework in Frameworks */,
+				253655B21FA1953600EA11B4 /* Foundation.framework in Frameworks */,
+				253655B41FA1953600EA11B4 /* UIKit.framework in Frameworks */,
+				478875F2F0862859F402217D /* Pods_iQiYiPhoneVideoRemovetheADDylib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2536558C1FA1953600EA11B4 = {
+			isa = PBXGroup;
+			children = (
+				2536559A1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD */,
+				253655B51FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib */,
+				253655AA1FA1953600EA11B4 /* Frameworks */,
+				253655991FA1953600EA11B4 /* Products */,
+				B5AC4D8EE7425A5B769D5EBA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		253655991FA1953600EA11B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253655981FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD.app */,
+				253655A61FA1953600EA11B4 /* libiQiYiPhoneVideoRemovetheADDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2536559A1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD */ = {
+			isa = PBXGroup;
+			children = (
+				2536559B1FA1953600EA11B4 /* MethodTraceConfig.plist */,
+				253655A01FA1953600EA11B4 /* Info.plist */,
+				2536559D1FA1953600EA11B4 /* TargetApp */,
+			);
+			path = iQiYiPhoneVideoRemovetheAD;
+			sourceTree = "<group>";
+		};
+		2536559D1FA1953600EA11B4 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				2536559E1FA1953600EA11B4 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		253655AA1FA1953600EA11B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				253655AB1FA1953600EA11B4 /* Cycript.framework */,
+				253655AD1FA1953600EA11B4 /* JavaScriptCore.framework */,
+				253655AF1FA1953600EA11B4 /* RevealServer.framework */,
+				253655B11FA1953600EA11B4 /* Foundation.framework */,
+				253655B31FA1953600EA11B4 /* UIKit.framework */,
+				66D92A4F51A6F6C8F736B032 /* Pods_iQiYiPhoneVideoRemovetheAD.framework */,
+				A6675DE1BDC636F142245F6B /* Pods_iQiYiPhoneVideoRemovetheADDylib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		253655B51FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib */ = {
+			isa = PBXGroup;
+			children = (
+				253655CC1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.xm */,
+				253655CD1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.mm */,
+				253655CF1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.h */,
+				253655D11FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.m */,
+				253655B61FA1953600EA11B4 /* MethodTrace */,
+				253655C11FA1953600EA11B4 /* CaptainHook */,
+				253655C41FA1953600EA11B4 /* AntiAntiDebug */,
+				253655C71FA1953600EA11B4 /* fishhook */,
+				253655BF1FA1953600EA11B4 /* Supporting Files */,
+			);
+			path = iQiYiPhoneVideoRemovetheADDylib;
+			sourceTree = "<group>";
+		};
+		253655B61FA1953600EA11B4 /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				253655B71FA1953600EA11B4 /* ANYMethodLog.h */,
+				253655B91FA1953600EA11B4 /* ANYMethodLog.m */,
+				253655BB1FA1953600EA11B4 /* MethodTrace.h */,
+				253655BD1FA1953600EA11B4 /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		253655BF1FA1953600EA11B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				253655C01FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		253655C11FA1953600EA11B4 /* CaptainHook */ = {
+			isa = PBXGroup;
+			children = (
+				253655C21FA1953600EA11B4 /* CaptainHook.h */,
+			);
+			name = CaptainHook;
+			sourceTree = "<group>";
+		};
+		253655C41FA1953600EA11B4 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				253655C51FA1953600EA11B4 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		253655C71FA1953600EA11B4 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				253655C81FA1953600EA11B4 /* fishhook.c */,
+				253655CA1FA1953600EA11B4 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		B5AC4D8EE7425A5B769D5EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC51F2278527395921747422 /* Pods-iQiYiPhoneVideoRemovetheAD.debug.xcconfig */,
+				BF5FBCE3AE4AC5F4FDC8AB39 /* Pods-iQiYiPhoneVideoRemovetheAD.release.xcconfig */,
+				E40812D527E298C0943CE214 /* Pods-iQiYiPhoneVideoRemovetheADDylib.debug.xcconfig */,
+				8F8F22C454B314D0462A8C92 /* Pods-iQiYiPhoneVideoRemovetheADDylib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		253655A41FA1953600EA11B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253655B81FA1953600EA11B4 /* ANYMethodLog.h in Headers */,
+				253655C31FA1953600EA11B4 /* CaptainHook.h in Headers */,
+				253655BC1FA1953600EA11B4 /* MethodTrace.h in Headers */,
+				253655D01FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.h in Headers */,
+				253655CB1FA1953600EA11B4 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		253655971FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253655D81FA1953600EA11B4 /* Build configuration list for PBXNativeTarget "iQiYiPhoneVideoRemovetheAD" */;
+			buildPhases = (
+				2E79BEC7BF4725645A0267ED /* [CP] Check Pods Manifest.lock */,
+				253655911FA1953600EA11B4 /* Sources */,
+				253655921FA1953600EA11B4 /* Frameworks */,
+				253655931FA1953600EA11B4 /* ShellScript */,
+				253655941FA1953600EA11B4 /* Resources */,
+				253655951FA1953600EA11B4 /* CopyFiles */,
+				253655961FA1953600EA11B4 /* ShellScript */,
+				4DF802A5C043CD615050BED4 /* [CP] Embed Pods Frameworks */,
+				6A589D3B3059F1DE8FD0081E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				253655A91FA1953600EA11B4 /* PBXTargetDependency */,
+			);
+			name = iQiYiPhoneVideoRemovetheAD;
+			productName = iQiYiPhoneVideoRemovetheAD;
+			productReference = 253655981FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		253655A51FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253655D51FA1953600EA11B4 /* Build configuration list for PBXNativeTarget "iQiYiPhoneVideoRemovetheADDylib" */;
+			buildPhases = (
+				1C1004C9F0699E0A422846D4 /* [CP] Check Pods Manifest.lock */,
+				253655A11FA1953600EA11B4 /* ShellScript */,
+				253655A21FA1953600EA11B4 /* Sources */,
+				253655A31FA1953600EA11B4 /* Frameworks */,
+				253655A41FA1953600EA11B4 /* Headers */,
+				692F2134D9816D3AF603B11B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iQiYiPhoneVideoRemovetheADDylib;
+			productName = iQiYiPhoneVideoRemovetheADDylib;
+			productReference = 253655A61FA1953600EA11B4 /* libiQiYiPhoneVideoRemovetheADDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2536558D1FA1953600EA11B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TinXie;
+				TargetAttributes = {
+					253655971FA1953600EA11B4 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					253655A51FA1953600EA11B4 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 253655901FA1953600EA11B4 /* Build configuration list for PBXProject "iQiYiPhoneVideoRemovetheAD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2536558C1FA1953600EA11B4;
+			productRefGroup = 253655991FA1953600EA11B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				253655971FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheAD */,
+				253655A51FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		253655941FA1953600EA11B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2536559F1FA1953600EA11B4 /* put ipa or app here in Resources */,
+				2536559C1FA1953600EA11B4 /* MethodTraceConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1004C9F0699E0A422846D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		253655931FA1953600EA11B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		253655961FA1953600EA11B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		253655A11FA1953600EA11B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		2E79BEC7BF4725645A0267ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DF802A5C043CD615050BED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheAD/Pods-iQiYiPhoneVideoRemovetheAD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692F2134D9816D3AF603B11B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheADDylib/Pods-iQiYiPhoneVideoRemovetheADDylib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A589D3B3059F1DE8FD0081E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iQiYiPhoneVideoRemovetheAD/Pods-iQiYiPhoneVideoRemovetheAD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253655911FA1953600EA11B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253655A21FA1953600EA11B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253655C61FA1953600EA11B4 /* AntiAntiDebug.m in Sources */,
+				253655BE1FA1953600EA11B4 /* MethodTrace.m in Sources */,
+				253655D21FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.m in Sources */,
+				253655C91FA1953600EA11B4 /* fishhook.c in Sources */,
+				253655CE1FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib.mm in Sources */,
+				253655BA1FA1953600EA11B4 /* ANYMethodLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		253655A91FA1953600EA11B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 253655A51FA1953600EA11B4 /* iQiYiPhoneVideoRemovetheADDylib */;
+			targetProxy = 253655A81FA1953600EA11B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		253655D31FA1953600EA11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		253655D41FA1953600EA11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		253655D61FA1953600EA11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40812D527E298C0943CE214 /* Pods-iQiYiPhoneVideoRemovetheADDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HA9CQP2NV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQiYiPhoneVideoRemovetheADDylib/iQiYiPhoneVideoRemovetheADDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libiQiYiPhoneVideoRemovetheADDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"iQiYiPhoneVideoRemovetheADDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		253655D71FA1953600EA11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8F22C454B314D0462A8C92 /* Pods-iQiYiPhoneVideoRemovetheADDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4HA9CQP2NV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQiYiPhoneVideoRemovetheADDylib/iQiYiPhoneVideoRemovetheADDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libiQiYiPhoneVideoRemovetheADDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"iQiYiPhoneVideoRemovetheADDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		253655D91FA1953600EA11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC51F2278527395921747422 /* Pods-iQiYiPhoneVideoRemovetheAD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HA9CQP2NV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = iQiYiPhoneVideoRemovetheAD/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.TinXie.iQiYiPhoneVideoRemovetheAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		253655DA1FA1953600EA11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5FBCE3AE4AC5F4FDC8AB39 /* Pods-iQiYiPhoneVideoRemovetheAD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HA9CQP2NV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = iQiYiPhoneVideoRemovetheAD/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.TinXie.iQiYiPhoneVideoRemovetheAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253655901FA1953600EA11B4 /* Build configuration list for PBXProject "iQiYiPhoneVideoRemovetheAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253655D31FA1953600EA11B4 /* Debug */,
+				253655D41FA1953600EA11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253655D51FA1953600EA11B4 /* Build configuration list for PBXNativeTarget "iQiYiPhoneVideoRemovetheADDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253655D61FA1953600EA11B4 /* Debug */,
+				253655D71FA1953600EA11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253655D81FA1953600EA11B4 /* Build configuration list for PBXNativeTarget "iQiYiPhoneVideoRemovetheAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253655D91FA1953600EA11B4 /* Debug */,
+				253655DA1FA1953600EA11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2536558D1FA1953600EA11B4 /* Project object */;
+}

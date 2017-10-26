@@ -1,0 +1,6 @@
+framework module Pods_iQiYiPhoneVideoRemovetheAD {
+  umbrella header "Pods-iQiYiPhoneVideoRemovetheAD-umbrella.h"
+
+  export *
+  module * { export * }
+}

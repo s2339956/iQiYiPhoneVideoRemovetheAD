@@ -11,6 +11,11 @@ https://drive.google.com/open?id=0Bwqp-qgMcmCTZDVDaUFnemlwTkE
 
 3. 運行, 享受
 
+## 備註
+
+本工程缺少檔案
+/TargetApp/ [敲殼 愛奇藝]
+
 ## 參考
 [MonkeyDev](https://github.com/AloneMonkey/MonkeyDev)
 [MonkeyDevSpecs](https://github.com/AloneMonkey/MonkeyDevSpecs)

@@ -19,7 +19,7 @@ https://drive.google.com/open?id=0Bwqp-qgMcmCTZDVDaUFnemlwTkE
 ## 備註
 
 >本工程缺少檔案
->>/TargetApp/ [敲殼 愛奇藝]
+>>/TargetApp/ [敲殼 愛奇藝],
 >>Cydia Impactor <- 如果不是付費開發人員 只有七天使用期限
 
 ## 參考

@@ -1,3 +1,7 @@
+# 公告
+- 停止維護
+- 功能失效
+
 # iQiYiPhoneVideoRemovetheAD
 愛奇藝 iphone app 免越獄 去廣告版
 
